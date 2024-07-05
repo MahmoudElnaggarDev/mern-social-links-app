@@ -1,0 +1,15 @@
+.user-info {
+  width: 100%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  text-align: justify;
+}
+
+.user-info img {
+  width: 100px;
+  border-radius: 1000px;
+}

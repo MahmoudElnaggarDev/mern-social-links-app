@@ -1,0 +1,56 @@
+header {
+  width: 90%;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  background-color: rgb(31, 29, 29, 0.85);
+  position: fixed;
+  top: 3.5rem;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 10px;
+}
+
+.blur-effect {
+  width: 93%;
+  height: 60px;
+  position: fixed;
+  top: 3.5rem;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 10px;
+  background-color: rgb(31, 29, 29);
+  filter: blur(20px);
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  gap: 20px;
+}
+
+header button {
+  padding: 0.5em 0.75em;
+  font-size: 1.25rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 7px;
+  border-radius: 7px;
+  background-color: transparent;
+  outline: none;
+  border: 2px solid white;
+  color: white;
+  cursor: pointer;
+  transition: color, font-weight, background-color 0.25s;
+}
+
+header button:hover {
+  background-color: white;
+  font-weight: bold;
+  color: black;
+}
